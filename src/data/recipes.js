@@ -140,6 +140,36 @@ export const INITIAL_RECIPES = [
     tags: ["High Protein", "Meal Prep", "Kid-Friendly"],
   },
   {
+    id: "recipe-006",
+    title: "Keto Egg Muffins",
+    category: "Breakfast",
+    prepTime: "10 min",
+    cookTime: "22 min",
+    servings: 12,
+    netCarbs: "~2g",
+    description: "Meal-prep breakfast or lunch — bake once, eat all week. Customize the mix-ins however you like.",
+    ingredients: [
+      "8 large eggs",
+      "⅓ cup heavy cream",
+      "1 cup shredded cheddar cheese",
+      "½ lb breakfast sausage, cooked and crumbled",
+      "½ bell pepper, diced small",
+      "2 green onions, sliced",
+      "½ tsp salt",
+      "¼ tsp black pepper",
+    ],
+    steps: [
+      "Preheat oven to 350°F. Grease a 12-cup muffin tin well with cooking spray or butter — don't skip this or they'll stick badly.",
+      "Whisk together eggs and heavy cream in a large bowl. Season with salt and pepper.",
+      "Stir in shredded cheddar, sausage, bell pepper, and green onions. Mix until evenly distributed.",
+      "Pour or ladle the mixture evenly into the muffin cups, filling each about ¾ full. They puff up a bit while baking.",
+      "Bake for 20–22 minutes until set in the center and lightly golden on top. A toothpick should come out clean.",
+      "Let cool in the pan for 5 minutes, then run a knife around the edges and pop them out. Store in the fridge for up to 5 days, or freeze individually for up to 3 months.",
+    ],
+    notes: "Mix-in swaps: bacon + jalapeño + pepper jack, spinach + feta + sun-dried tomato, ham + swiss + mushroom — anything works as long as total volume stays roughly the same. Reheat 60–90 seconds in the microwave, or a few minutes in a toaster oven to crisp the edges back up. Use a silicone muffin pan if you have one — way easier to pop them out cleanly.",
+    tags: ["Breakfast", "Meal Prep", "High Protein"],
+  },
+  {
     id: "recipe-005",
     title: "Antipasto Salad",
     category: "Salads & Bowls",
@@ -175,4 +205,4 @@ export const INITIAL_RECIPES = [
   },
 ];
 
-export const CATEGORIES = ["All", "Salads & Bowls", "Mains", "Soups", "Snacks", "Sauces & Dressings"];
+export const CATEGORIES = ["All", "Breakfast", "Salads & Bowls", "Mains", "Soups", "Snacks", "Sauces & Dressings"];
